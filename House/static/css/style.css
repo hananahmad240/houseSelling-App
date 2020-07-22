@@ -1,0 +1,67 @@
+.social a {
+  margin-right: 0.4rem; }
+
+.logo {
+  width: 80px; }
+
+.btn-secondary {
+  color: #fff !important; }
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase; }
+
+#showcase {
+  background: url("../img/showcase.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 300px;
+  color: #fff; }
+  #showcase .home-search {
+    min-height: 400px;
+    position: relative; }
+    #showcase .home-search .overlay {
+      background-color: rgba(51, 51, 51, 0.8);
+      border-radius: 15px; }
+
+#services {
+  background: url("../img/building.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 300px;
+  color: #fff;
+  z-index: 1; }
+  #services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(32, 134, 107, 0.8); }
+
+#showcase-inner {
+  background: url("../img/building.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative; }
+  #showcase-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 134, 107, 0.8); }
+
+.listing-preview a {
+  position: relative; }
